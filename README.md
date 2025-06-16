@@ -6,8 +6,8 @@ Este é um sistema de agendamento de espaços físicos, desenvolvido com arquite
 
 O projeto é composto por quatro serviços principais:
 
-- **Pessoa**: Cadastro e gerenciamento de pessoas (antes chamado de usuário).
-- **Espaço Físico**: Gerencia as salas disponíveis (refatorado de "Sala").
+- **Pessoa**: Cadastro e gerenciamento de pessoas.
+- **Espaço Físico**: Gerencia as salas disponíveis.
 - **Agendamento**: Registra e consulta agendamentos.
 - **Gateway**: Responsável por escutar os eventos de agendamento via RabbitMQ.
 
@@ -21,7 +21,7 @@ O projeto é composto por quatro serviços principais:
 - Spring Data JPA
 - RabbitMQ (Mensageria)
 - PostgreSQL (Banco de dados)
-- Docker e Docker Compose (opcional)
+- Docker e Docker Compose 
 - Lombok
 
 ---
